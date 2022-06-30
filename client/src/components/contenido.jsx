@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import ChatBot from 'react-simple-chatbot';
 
+
 const estilos = {
     background: '#f5f8fb',
     fontFamily: 'Helvetica Neue',
@@ -35,6 +36,16 @@ const steps = [
     },
     {
         id: 'respuesta-pedidoy',
+        message: "What's your name?",
+        trigger: 'respuesta-nombre'
+    },
+    {
+        id: 'respuesta-nombre',
+        user:true,
+        trigger: 'respuesta-nombre2'
+    },
+    {
+        id: 'respuesta-nombre2',
         message: 'Please, give us your address',
         trigger: 'respuesta-pedidoy2'
     },
@@ -44,9 +55,11 @@ const steps = [
             {value: 'continue', label: "Give us your address", trigger: 'direccion'},
             {value: 'cancel', label: "Cancel order", trigger: 'cancelar'},
             
-        ]
+        ],
+        
 
     },
+    
     {
         id: 'cancelar',
         message: 'Thank for your visit, see you soon',
@@ -138,12 +151,12 @@ const steps = [
     },
     {
         id: 'queso-si',
-        message: 'Please, tell us the size of your pizza',
+        message: 'Please, choose the size of your pizza',
         trigger: 'respuesta-queso-si'
     },
     {
         id: 'queso-no',
-        message: 'Please, tell us the size of your pizza',
+        message: 'Please, choose the size of your pizza',
         trigger: 'respuesta-queso-no'
     },
     {
@@ -246,19 +259,45 @@ const steps = [
     },
     {
         id: 'ice-oreo',
-        message: 'We have your data',
-        end:true
+        message: 'We have your data, how do you prefer to pay?',
+        trigger:'pago_opciones'
     },
     
     {
         id: 'ice-no',
-        message: 'We have your data',
+        message: 'We have your data, how do you prefer to pay?',
+        trigger:'pago_opciones'
+    },
+    {
+        id: 'pago_opciones',
+        options: [
+            {value: 'cash', label: "Cash", trigger: 'cash'},
+            {value: 'credit card', label: "Credit card", trigger: 'credit_card'},
+            {value: 'cancel', label: "Cancel order", trigger: 'cancelar'},
+        ]
+    },
+    {
+        id: 'cash',
+        message: 'When you recives the order, you will pay in cash to the delivery man. Thank you for your purchase',
         end:true
     },
-    
+    {
+        id: 'credit_card',
+        message: 'Please, can you give me your credit card details?',
+        trigger:'pago_tarjeta'
+    },
+    {
+        id: 'pago_tarjeta',
+        user:true,
+        trigger:'pago_tarjeta_confirmacion'
+    },
+    {
+        id: 'pago_tarjeta_confirmacion',
+        message: 'Thank you for your purchase, you will recive the order in 15 minutes',
+        end:true
+    },
 
-    
-    
+
 ];
 
 const Contenido = () => (
