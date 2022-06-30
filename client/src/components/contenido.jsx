@@ -39,6 +39,7 @@ const steps = [
     options: [
       { value: "y", label: "Yes", trigger: "respuesta-pedidoy" },
       { value: "n", label: "No", trigger: "respuesta-pedidon" },
+
     ],
     
   },
@@ -52,7 +53,7 @@ const steps = [
     user: true,
     //validate only letters
     validator: (value)=>{
-        if(/^[A-Z]{1}[a-z]{2,15}/.test(value)){
+        if(/^[A-Z]{1}[a-z]{2,15}/.test(value)||/^[a-z]{2,15}/.test(value)){
             return true;
         }else{
             return 'Please enter a valid name';
