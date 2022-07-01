@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## ChatBot in React
+This project was make with the library React-simple-chatbot (nodeJS) This library allows to create a funtional chatBot.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/88061350/176792359-20db6c49-43d8-4a48-856a-7226420e548f.png)
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/88061350/176792739-eb1cd0c6-7fca-4cfd-8742-4e38d46fd731.png)
 
-In the project directory, you can run:
 
-### `npm start`
+### React_simple_chatbot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/88061350/176792584-1abdc65b-db8d-43d0-bf52-9dcc39cb8084.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/88061350/176792644-d73bdf85-8b8e-4028-8293-e8f41290acc7.png)
 
-### `npm test`
+### Validator
+We use validator to validate the inputs that user write to bot.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/88061350/176792491-3a2863f5-162d-4f1a-ab3e-d0e4469cc114.png)
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/88061350/176792524-4eb549cc-9213-4043-80a5-b6d1ed9aeca2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this proyect we use funtional components in React and hooks.
+We use useContext to improve the code, we split it into multiple components to ensure more readable code
+## ChatBot in React
+This project was make with the library React-simple-chatbot (nodeJS) This library allows to create a funtional chatBot.
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/88061350/176792359-20db6c49-43d8-4a48-856a-7226420e548f.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/88061350/176792739-eb1cd0c6-7fca-4cfd-8742-4e38d46fd731.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### React_simple_chatbot
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://user-images.githubusercontent.com/88061350/176792584-1abdc65b-db8d-43d0-bf52-9dcc39cb8084.png)
 
-## Learn More
+![image](https://user-images.githubusercontent.com/88061350/176792644-d73bdf85-8b8e-4028-8293-e8f41290acc7.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Validator
+We use validator to validate the inputs that user write to bot.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/88061350/176792491-3a2863f5-162d-4f1a-ab3e-d0e4469cc114.png)
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/88061350/176792524-4eb549cc-9213-4043-80a5-b6d1ed9aeca2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In this proyect we use funtional components in React and hooks.
+We use useContext to improve the code, we split it into multiple components to ensure more readable code
