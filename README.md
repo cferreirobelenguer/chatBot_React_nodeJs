@@ -22,8 +22,8 @@ We use validator to validate the inputs that user write to bot.
 
 ### React
 
-In this proyect we use funtional components in React and hooks.
-We use useContext to improve the code, we split it into multiple components to ensure more readable code
+In this proyect I use funtional components in React and hooks.
+I use useContext to improve the code, I split it into multiple components to ensure more readable code
 ## ChatBot in React
 This project was make with the library React-simple-chatbot (nodeJS) This library allows to create a funtional chatBot.
 
@@ -39,7 +39,7 @@ This project was make with the library React-simple-chatbot (nodeJS) This librar
 ![image](https://user-images.githubusercontent.com/88061350/176792644-d73bdf85-8b8e-4028-8293-e8f41290acc7.png)
 
 ### Validator
-We use validator to validate the inputs that user write to bot.
+I use validator to validate the inputs that user write to bot.
 
 ![image](https://user-images.githubusercontent.com/88061350/176792491-3a2863f5-162d-4f1a-ab3e-d0e4469cc114.png)
 
@@ -48,5 +48,5 @@ We use validator to validate the inputs that user write to bot.
 
 ### React
 
-In this proyect we use funtional components in React and hooks.
-We use useContext to improve the code, we split it into multiple components to ensure more readable code
+In this proyect I use funtional components in React and hooks.
+
